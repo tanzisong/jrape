@@ -3,7 +3,7 @@ import axios from 'axios'
 import { Loading } from 'element-ui'
 
 const service = axios.create({
-  baseURL: 'http://192.168.23.4:8090', // api 的 base_url
+  baseURL: 'http://106.15.92.48:8090', // api 的 base_url
   // baseURL: process.env.VUE_APP_API,
   withCredentials: false, // 跨域请求时发送 cookies
   timeout: 10000 // request timeout
